@@ -1,6 +1,6 @@
 # ENCRYPTED DUAL-IMAGE REVERSIBLE DATA HIDING TO SECURE PATIENT INFORMATION IN E-HEALTHCARE
 
-This project represents a cutting-edge fusion of information security principles, leveraging cryptographic measures and steganographic methods, to fortify the protection of patient data within the e-healthcare landscape.
+This project represents a cutting-edge fusion of information security principles, leveraging cryptographic measures and steganographic methods, to fortify the protection of patient data within the e-healthcare landscape.   
 
 GRAYSCALE IMAGE: A grayscale image is an image composed of varying shades of gray, typically represented using 8 bits per pixel, where each pixel's intensity value represents a specific shade of gray, ranging from black to white.
 
