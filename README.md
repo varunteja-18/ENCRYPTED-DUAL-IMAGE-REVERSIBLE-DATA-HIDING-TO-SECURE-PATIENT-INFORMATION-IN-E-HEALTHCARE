@@ -13,6 +13,8 @@ This project symbolize the innovative integration of cybersecurity methodologies
 
    
 <em>GRAYSCALE IMAGE:</em>
+
+<b>GRAYSCALE IMAGE:</b>
 A grayscale image is an image composed of varying shades of gray, typically represented using 8 bits per pixel, where each pixel's intensity value represents a specific shade of gray, ranging from black to white.
 
 DICOM IMAGE: A DICOM image is a medical imaging format often employing 16 bits per pixel and adhering to the Digital Imaging and Communications in Medicine (DICOM) standard, designed for the storage and exchange of medical images and related patient information.
