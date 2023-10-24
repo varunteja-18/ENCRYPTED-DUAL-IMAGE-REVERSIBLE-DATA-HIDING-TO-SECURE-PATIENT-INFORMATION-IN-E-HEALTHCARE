@@ -2,7 +2,7 @@
 
 This project symbolize the innovative integration of cybersecurity methodologies, combining both cryptographic techniques and steganographic approaches, to enhance the security of patient information in the digital healthcare domain.  
 
-▪️ GRAYSCALE IMAGE<br>
+▪️ <b><GRAYSCALE IMAGE</b><br>
 ▪️ DICOM IMAGE<br>
 ▪️ PAILLIER CRYPTOSYSTEM<br>
 ▪️ DATA EMBEDDING<br>
