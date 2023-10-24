@@ -12,7 +12,7 @@ This project symbolize the innovative integration of cybersecurity methodologies
 ▪️ HISTOGRAM ANALYSIS<br>
 
    
-<ins>GRAYSCALE IMAGE:</ins>
+<ins>GRAYSCALE IMAGE:</ins><br>
 A grayscale image is a type of picture that displays in shades of gray, without colors. It's similar to black and white photos we often see. In these images, pixel brightness indicates the shade, ranging from black to white. Typically, they are represented using 8 bits per pixel, allowing for 256 different shades. Grayscale images are common in image processing due to their simplicity, reduced data load, and the absence of color information.
 
 <ins>DICOM IMAGE:</ins>
