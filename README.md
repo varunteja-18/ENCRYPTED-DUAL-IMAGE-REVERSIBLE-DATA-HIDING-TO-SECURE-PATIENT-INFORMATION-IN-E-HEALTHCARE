@@ -1,8 +1,19 @@
 # ENCRYPTED DUAL-IMAGE REVERSIBLE DATA HIDING TO SECURE PATIENT INFORMATION IN E-HEALTHCARE
 
-This project represents a cutting-edge fusion of information security principles, leveraging cryptographic measures and steganographic methods, to fortify the protection of patient data within the e-healthcare landscape.   
+This project symbolize the innovative integration of cybersecurity methodologies, combining both cryptographic techniques and steganographic approaches, to enhance the security of patient information in the digital healthcare domain.  
 
-GRAYSCALE IMAGE: A grayscale image is an image composed of varying shades of gray, typically represented using 8 bits per pixel, where each pixel's intensity value represents a specific shade of gray, ranging from black to white.
+1. GRAYSCALE IMAGE
+2. DICOM IMAGE
+3. PAILLIER CRYPTOSYSTEM
+4. DATA EMBEDDING
+5. DATA EXTRACTION AND IMAGE RECOVERY
+6. WATERMARK AUTHENTICATION
+7. STATISTICAL ANALYSIS
+8. HISTOGRAM ANALYSIS
+
+   
+<em>GRAYSCALE IMAGE:</em>
+A grayscale image is an image composed of varying shades of gray, typically represented using 8 bits per pixel, where each pixel's intensity value represents a specific shade of gray, ranging from black to white.
 
 DICOM IMAGE: A DICOM image is a medical imaging format often employing 16 bits per pixel and adhering to the Digital Imaging and Communications in Medicine (DICOM) standard, designed for the storage and exchange of medical images and related patient information.
 
