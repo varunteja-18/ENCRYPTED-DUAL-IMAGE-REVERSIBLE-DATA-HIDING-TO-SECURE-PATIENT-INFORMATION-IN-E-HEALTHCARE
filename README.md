@@ -3,13 +3,13 @@
 This project symbolize the innovative integration of cybersecurity methodologies, combining both cryptographic techniques and steganographic approaches, to enhance the security of patient information in the digital healthcare domain.  
 
 ▪️ GRAYSCALE IMAGE<br>
-▪️ DICOM IMAGE
-▪️ PAILLIER CRYPTOSYSTEM
-▪️ DATA EMBEDDING
-▪️ DATA EXTRACTION AND IMAGE RECOVERY
-▪️ WATERMARK AUTHENTICATION
-▪️ STATISTICAL ANALYSIS
-▪️ HISTOGRAM ANALYSIS
+▪️ DICOM IMAGE<br>
+▪️ PAILLIER CRYPTOSYSTEM<br>
+▪️ DATA EMBEDDING<br>
+▪️ DATA EXTRACTION AND IMAGE RECOVERY<br>
+▪️ WATERMARK AUTHENTICATION<br>
+▪️ STATISTICAL ANALYSIS<br>
+▪️ HISTOGRAM ANALYSIS<br>
 
    
 <ins>GRAYSCALE IMAGE:</ins>
@@ -39,7 +39,7 @@ To perfectly evaluate the performance of the specified algorithm, a range of met
 Histogram analysis is a method that visually charts the distribution of pixel intensities within an image. By presenting how often each pixel intensity occurs, it provides insights into the image's overall characteristics. Attackers frequently utilize histogram analysis to detect hidden information by putting together the histograms of the original (cover) and altered (stego) images. The strength and stealth of a data-hiding technique are often measured by how similar these two histograms are. A closer resemblance between the histograms suggests the hidden data is more effectively concealed, making it more resistant to detection. This evaluation plays a pivotal role in ensuring both the security of embedded data and the preservation of the cover image's integrity.
 
 # OVERVIEW
-![overview]!(https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/eebf777c-5d91-4655-ad50-06a56c396196)
+![overview](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/eebf777c-5d91-4655-ad50-06a56c396196)
 
 
 ![test_images]
