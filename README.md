@@ -1,55 +1,57 @@
-# ENCRYPTED DUAL-IMAGE REVERSIBLE DATA HIDING TO SECURE PATIENT INFORMATION IN E-HEALTHCARE
+![Screenshot 2023-10-24 132702](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/65d5392a-7444-464d-bc84-c25cb8e04050)# ENCRYPTED DUAL-IMAGE REVERSIBLE DATA HIDING TO SECURE PATIENT INFORMATION IN E-HEALTHCARE
 
 This project symbolize the innovative integration of cybersecurity methodologies, combining both cryptographic techniques and steganographic approaches, to enhance the security of patient information in the digital healthcare domain.  
 
 ▪️ <b>GRAYSCALE IMAGE</b><br>
-▪️ DICOM IMAGE<br>
-▪️ PAILLIER CRYPTOSYSTEM<br>
-▪️ DATA EMBEDDING<br>
-▪️ DATA EXTRACTION AND IMAGE RECOVERY<br>
-▪️ WATERMARK AUTHENTICATION<br>
-▪️ STATISTICAL ANALYSIS<br>
-▪️ HISTOGRAM ANALYSIS<br>
+▪️ <b>DICOM IMAGE</b><br>
+▪️ <b>PAILLIER CRYPTOSYSTEM</b><br>
+▪️ <b>DATA EMBEDDING</b><br>
+▪️ <b>DATA EXTRACTION AND IMAGE RECOVERY</b><br>
+▪️ <b>WATERMARK AUTHENTICATION</b><br>
+▪️ <b>STATISTICAL ANALYSIS</b><br>
+▪️ <b>HISTOGRAM ANALYSIS</b><br>
 
    
 <ins>GRAYSCALE IMAGE:</ins><br>
 A grayscale image is a type of picture that displays in shades of gray, without colors. It's similar to black and white photos we often see. In these images, pixel brightness indicates the shade, ranging from black to white. Typically, they are represented using 8 bits per pixel, allowing for 256 different shades. Grayscale images are common in image processing due to their simplicity, reduced data load, and the absence of color information.
 
-<ins>DICOM IMAGE:</ins>
+<ins>DICOM IMAGE:</ins><br>
 A DICOM image, standing for Digital Imaging and Communications in Medicine, is a standard format used to store and transmit medical imaging data. It not only contains the image but also pertinent patient and procedural information. DICOM images can vary in their bits per pixel, often 12 or 16 bits, allowing for detailed grayscale representations. This format is widely adopted in healthcare because of its comprehensive approach, ensuring both the image and accompanying data are encapsulated in one file.
 
-<ins>PAILLIER CRYPTOSYSTEM:</ins>
+<ins>PAILLIER CRYPTOSYSTEM:</ins><br>
 The Paillier cryptosystem is a public-key encryption method. It stands out for its homomorphic traits, letting us perform calculations on encrypted data without decrypting it first. This feature makes Paillier valuable for secure computations and ensuring data privacy in numerous cryptographic scenarios. Furthermore, its adaptability allows integration with various cryptographic applications, and its robustness offers an added layer of security, minimizing potential vulnerabilities.
 
-<ins>DATA EMBEDDING:</ins>
+<ins>DATA EMBEDDING:</ins><br>
 Initially, a 512x512 8-bit grayscale or 16-bit DICOM image is considered as the cover image, which is then divided into two parts virtually as coverimage1 and coverimage2. Each coverimage is encrypted using the Paillier cryptosystem. The patient information is treated as a confidential message, and zone values are computed following a specific algorithm. Subsequently, reduced secret and zone values are derived to prevent image distortion from an excessively large secret message. Both reduced secret and zone values are then encrypted using the Paillier cryptosystem. These encrypted reduced values are embedded in encrypted coverimage1 and encrypted coverimage2 to create stegoimage1 and stegoimage2, respectively, thereby forming a stego image.
 
-<ins>DATA EXTRACTION AND IMAGE RECOVERY PHASE:</ins>
+<ins>DATA EXTRACTION AND IMAGE RECOVERY PHASE:</ins><br>
 In the data extraction and image recovery phase, stegoimage1 and stegoimage2 are decrypted using the Paillier cryptosystem to successfully recover the original cover image and the confidential secret image.
 
-<ins>WATERMARK AUTHENTICATION:</ins>
+<ins>WATERMARK AUTHENTICATION:</ins><br>
 To further guarantee data authenticity and integrity, an 8-bit grayscale watermark image of 256x256 pixels is incorporated into the data during the embedding process using the Alpha-Blending method. This watermark acts as a distinct identifier.During data extraction and the image recovery phase, a Watermark Detection process is used to retrieve the watermark from the stego image and compare it to a reference image. If the watermarks align with eachother, it verifies the data's authenticity and integrity. Otherwise, any dissimilarity resembles that unauthorized changes have occurred.
 
 In this comprehensive approach, encrypted dual image reversible data hiding is employed using 512x512 grayscale or DICOM images, supplemented by watermark authentication. This integrated strategy not only enhances the security of patient information within the realm of e-healthcare but also ensures both confidentiality and data integrity, providing a robust and reliable solution.
 
-<ins>STATISTICAL METRICS:</ins> 
+<ins>STATISTICAL METRICS:</ins><br>
 To perfectly evaluate the performance of the specified algorithm, a range of metrics is employed, including Peak Signal-to-Noise Ratio (PSNR), Mean Square Error (MSE), Structural Similarity Index Matrix (SSIM), Normalized Absolute Error (NAE), Normalized Cross-correlation (NCC), Embedding Rate (bpp) and BER (Bit Error Rate). These metrics collectively provide insights into the algorithm's efficiency in terms of image quality, data preservation, and capacity.
 
-<ins>HISTOGRAM ANALYSIS:</ins> 
+<ins>HISTOGRAM ANALYSIS:</ins><br>
 Histogram analysis is a method that visually charts the distribution of pixel intensities within an image. By presenting how often each pixel intensity occurs, it provides insights into the image's overall characteristics. Attackers frequently utilize histogram analysis to detect hidden information by putting together the histograms of the original (cover) and altered (stego) images. The strength and stealth of a data-hiding technique are often measured by how similar these two histograms are. A closer resemblance between the histograms suggests the hidden data is more effectively concealed, making it more resistant to detection. This evaluation plays a pivotal role in ensuring both the security of embedded data and the preservation of the cover image's integrity.
 
 # OVERVIEW
 ![overview](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/eebf777c-5d91-4655-ad50-06a56c396196)
 
+![test_images](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/2171ccc8-3318-4f1e-933f-888094136780)
 
-![test_images]
+![performance_metrics](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/ed5dc058-b72f-49a8-9b05-e412bd70a774)
 
-![performance_metrics]
+![Software requirements](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/56d33273-e779-4e5f-bb50-fb718aee61dd)
+
 
 # PAILLIER CRYPTOSYSTEM ALGORITHM
-![paillier1](https://github.com/Neeraja-Kallamadi/Information_Security_E-Health_Encrypted_Dual-Image_Reversible_Data_Hiding/assets/110168775/38b6e2f1-83d9-464b-beee-058c4cb1162e)
-![paillier2](https://github.com/Neeraja-Kallamadi/Information_Security_E-Health_Encrypted_Dual-Image_Reversible_Data_Hiding/assets/110168775/a91dbe5a-e359-4b92-8a55-c4bce5974ee3)
-![paillier3](https://github.com/Neeraja-Kallamadi/Information_Security_E-Health_Encrypted_Dual-Image_Reversible_Data_Hiding/assets/110168775/f46b8555-f7c4-4251-b774-2ecb49f67141)
+![paillier1](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/32dccd45-0f56-4b1f-8805-4099d4679c31)
+![paillier2](https://github.com/varunteja-18/ENCRYPTED-DUAL-IMAGE-REVERSIBLE-DATA-HIDING-TO-SECURE-PATIENT-INFORMATION-IN-E-HEALTHCARE/assets/109790641/0b19eaec-8016-40a8-bdfb-35cd1303a4e2)
+
 
 # DATA EMBEDDING ALGORITHM
 ![data_embedding1](https://github.com/Neeraja-Kallamadi/Information_Security_E-Health_Encrypted_Dual-Image_Reversible_Data_Hiding/assets/110168775/6afb42f8-5e16-4c25-8e23-2f5c46ee5c4f)
