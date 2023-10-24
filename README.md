@@ -2,7 +2,7 @@
 
 This project symbolize the innovative integration of cybersecurity methodologies, combining both cryptographic techniques and steganographic approaches, to enhance the security of patient information in the digital healthcare domain.  
 
-▪️ GRAYSCALE IMAGE
+▪️ GRAYSCALE IMAGE<br>
 ▪️ DICOM IMAGE
 ▪️ PAILLIER CRYPTOSYSTEM
 ▪️ DATA EMBEDDING
@@ -12,10 +12,6 @@ This project symbolize the innovative integration of cybersecurity methodologies
 ▪️ HISTOGRAM ANALYSIS
 
    
-<em>GRAYSCALE IMAGE:</em>
-
-<b>GRAYSCALE IMAGE:</b>
-
 <ins>GRAYSCALE IMAGE:</ins>
 A grayscale image is a type of picture that displays in shades of gray, without colors. It's similar to black and white photos we often see. In these images, pixel brightness indicates the shade, ranging from black to white. Typically, they are represented using 8 bits per pixel, allowing for 256 different shades. Grayscale images are common in image processing due to their simplicity, reduced data load, and the absence of color information.
 
